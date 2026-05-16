@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">Piggly — Allowances, finally under control.</title>
+    <meta name="description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Shared with your partner." />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#" class="header__brand" aria-label="Piggly">
+          <img src="/assets/piggly-lockup.svg" alt="Piggly" class="lockup lockup--header" />
+        </a>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" class="lang-toggle__btn" data-lang="en" aria-pressed="true">
+            <span class="lang-toggle__flag" aria-hidden="true">🇺🇸</span>EN
+          </button>
+          <button type="button" class="lang-toggle__btn" data-lang="pt" aria-pressed="false">
+            <span class="lang-toggle__flag" aria-hidden="true">🇧🇷</span>PT
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__icon">
+            <img src="/assets/app-icon-primary.svg" alt="" />
+          </div>
+          <h1 class="hero__headline" data-i18n="hero.headline">Allowances, finally under control.</h1>
+          <p class="hero__sub" data-i18n="hero.sub">One wallet per kid. Automatic deposits. Shared with your partner.</p>
+          <a class="btn btn--primary" href="https://app.piggly.com" data-i18n="cta">Get started free</a>
+        </div>
+      </section>
+
+      <section class="problem">
+        <div class="container">
+          <p class="problem__text" data-i18n="problem">Keeping track of allowances is a mess. Piggly keeps it simple.</p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <div class="features__grid">
+            <article class="card">
+              <h3 class="card__title" data-i18n="feature1.title">One wallet per kid</h3>
+              <p class="card__desc" data-i18n="feature1.desc">Each child has their own balance, history, and deposit schedule.</p>
+            </article>
+            <article class="card">
+              <h3 class="card__title" data-i18n="feature2.title">Automatic deposits</h3>
+              <p class="card__desc" data-i18n="feature2.desc">Set the amount and frequency once. Piggly credits it automatically.</p>
+            </article>
+            <article class="card">
+              <h3 class="card__title" data-i18n="feature3.title">Shared with your partner</h3>
+              <p class="card__desc" data-i18n="feature3.desc">Invite your partner by email. Both of you stay in sync.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a href="https://app.piggly.com" class="footer__brand" aria-label="Piggly">
+          <img src="/assets/piggly-lockup.svg" alt="Piggly" class="lockup lockup--footer" />
+        </a>
+        <a class="footer__link" href="https://app.piggly.com" data-i18n="footer.link">Open the app</a>
+        <p class="footer__tagline" data-i18n="footer.tagline">Made with ♥ for my kids</p>
+        <div class="lang-toggle lang-toggle--footer" role="group" aria-label="Language">
+          <button type="button" class="lang-toggle__btn" data-lang="en" aria-pressed="true">
+            <span class="lang-toggle__flag" aria-hidden="true">🇺🇸</span>EN
+          </button>
+          <button type="button" class="lang-toggle__btn" data-lang="pt" aria-pressed="false">
+            <span class="lang-toggle__flag" aria-hidden="true">🇧🇷</span>PT
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

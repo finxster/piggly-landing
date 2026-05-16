@@ -1,0 +1,30 @@
+/* Piggly design tokens — drop into your global CSS or convert to Tailwind/JSON */
+
+:root {
+  /* Color */
+  --piggly-coral:       #FF6B7A;
+  --piggly-coral-deep:  #E8536B;
+  --piggly-blush-pink:  #FFB8C0;
+  --piggly-blush:       #FFE2E5;
+  --piggly-blush-soft:  #FFF1F2;
+  --piggly-cream:       #FBF7F3;
+  --piggly-ink:         #1F1A24;
+  --piggly-ink-soft:    #3A3340;
+  --piggly-muted:       #8A8090;
+  --piggly-rule:        #ECE5E0;
+
+  /* Type */
+  --piggly-font:        "Nunito", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --piggly-wordmark-weight: 900;
+  --piggly-wordmark-tracking: -0.04em;
+
+  /* Radius */
+  --piggly-radius-icon-ratio: 0.234; /* multiply by icon size for squircle r */
+  --piggly-radius-card: 20px;
+  --piggly-radius-input: 12px;
+
+  /* Shadow — hero icon only */
+  --piggly-shadow-hero:
+    0 24px 60px -20px rgba(255, 107, 122, 0.55),
+    0 2px 4px rgba(31, 26, 36, 0.04);
+}

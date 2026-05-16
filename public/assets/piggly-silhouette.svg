@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Piggly silhouette">
+  <path d="M 44 58 Q 36 28 70 36 Q 74 56 62 72 Z" fill="currentColor"></path>
+  <path d="M 156 58 Q 164 28 130 36 Q 126 56 138 72 Z" fill="currentColor"></path>
+  <rect x="22" y="48" width="156" height="128" rx="54" fill="currentColor"></rect>
+</svg>
