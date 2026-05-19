@@ -184,6 +184,63 @@ button {
   transform: translateY(1px);
 }
 
+/* ---------- Showcase ---------- */
+.showcase {
+  background: var(--piggly-blush-soft);
+  padding-block: 72px;
+  border-block: 1px solid var(--piggly-rule);
+}
+
+.showcase__title {
+  margin: 0 0 8px;
+  text-align: center;
+  font-weight: 900;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  letter-spacing: -0.02em;
+  color: var(--piggly-ink);
+}
+
+.showcase__sub {
+  margin: 0 auto 40px;
+  max-width: 560px;
+  text-align: center;
+  color: var(--piggly-muted);
+  font-size: 1.0625rem;
+}
+
+.showcase__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+.shot {
+  margin: 0;
+}
+
+.shot__frame {
+  border-radius: var(--piggly-radius-card);
+  background: #ffffff;
+  border: 1px solid var(--piggly-rule);
+  box-shadow: 0 12px 32px -16px rgba(31, 26, 36, 0.18);
+  overflow: hidden;
+}
+
+.shot__frame img {
+  width: 100%;
+  height: auto;
+}
+
+.shot__caption {
+  margin-top: 14px;
+  text-align: center;
+  color: var(--piggly-ink-soft);
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
 /* ---------- Problem ---------- */
 .problem {
   background: var(--piggly-blush);
@@ -288,11 +345,17 @@ button {
   }
 
   .features__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
   .card {
     padding: 32px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .features__grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

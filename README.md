@@ -26,6 +26,10 @@ npm run preview    # serves dist/ on http://localhost:5184
 └── package.json
 ```
 
+## Canonical URL & social previews
+
+Open Graph / Twitter Card meta tags in `index.html` point at `https://piggly.pages.dev/`. If you deploy under a different domain, search and replace that URL in `index.html` (3 occurrences: `<link rel="canonical">`, `og:url`, and the absolute image URLs).
+
 ## Deploy to Cloudflare Pages
 
 1. Push this repo to GitHub or GitLab.
