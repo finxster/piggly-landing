@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="meta.title">Piggly — Allowances, finally under control.</title>
-    <meta name="description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Shared with your partner." />
+    <title data-i18n="meta.title">Piggly — Allowances, now with wishes.</title>
+    <meta name="description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Kids set wishes and Piggly does the math." />
     <link rel="canonical" href="https://piggly.pages.dev/" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
 
@@ -12,8 +12,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Piggly" />
     <meta property="og:url" content="https://piggly.pages.dev/" />
-    <meta property="og:title" data-i18n="meta.title" content="Piggly — Allowances, finally under control." />
-    <meta property="og:description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Shared with your partner." />
+    <meta property="og:title" data-i18n="meta.title" content="Piggly — Allowances, now with wishes." />
+    <meta property="og:description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Kids set wishes and Piggly does the math." />
     <meta property="og:image" content="https://piggly.pages.dev/assets/screenshots/dashboard.png" />
     <meta property="og:image:width" content="2560" />
     <meta property="og:image:height" content="1108" />
@@ -23,8 +23,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" data-i18n="meta.title" content="Piggly — Allowances, finally under control." />
-    <meta name="twitter:description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Shared with your partner." />
+    <meta name="twitter:title" data-i18n="meta.title" content="Piggly — Allowances, now with wishes." />
+    <meta name="twitter:description" data-i18n="meta.description" content="One wallet per kid. Automatic deposits. Kids set wishes and Piggly does the math." />
     <meta name="twitter:image" content="https://piggly.pages.dev/assets/screenshots/dashboard.png" />
     <meta name="twitter:image:alt" content="Piggly dashboard showing two kids' wallets with balances." />
 
@@ -59,8 +59,8 @@
           <div class="hero__icon">
             <img src="/assets/app-icon-primary.svg" alt="" />
           </div>
-          <h1 class="hero__headline" data-i18n="hero.headline">Allowances, finally under control.</h1>
-          <p class="hero__sub" data-i18n="hero.sub">One wallet per kid. Automatic deposits. Shared with your partner.</p>
+          <h1 class="hero__headline" data-i18n="hero.headline">Allowances, now with wishes.</h1>
+          <p class="hero__sub" data-i18n="hero.sub">Kids set wishes. Piggly does the math — and shows them exactly how many weeks of allowance it'll take to get there.</p>
           <a class="btn btn--primary" href="https://piggly-app.pages.dev/" data-i18n="cta">Get started free</a>
         </div>
       </section>
@@ -76,23 +76,44 @@
           <h2 class="showcase__title" data-i18n="showcase.title">See it in action</h2>
           <p class="showcase__sub" data-i18n="showcase.sub">A quick look at what Piggly looks like for you and for your kids.</p>
           <div class="showcase__grid">
-            <figure class="shot">
-              <div class="shot__frame">
+            <figure class="phone">
+              <div class="phone__frame">
                 <img src="/assets/screenshots/dashboard.png" alt="" loading="lazy" />
               </div>
-              <figcaption class="shot__caption" data-i18n="showcase.caption1">A wallet for each kid, side by side.</figcaption>
+              <figcaption class="phone__caption" data-i18n="showcase.caption1">A wallet for each kid, side by side.</figcaption>
             </figure>
-            <figure class="shot">
-              <div class="shot__frame">
+            <figure class="phone">
+              <div class="phone__frame">
                 <img src="/assets/screenshots/wallet.png" alt="" loading="lazy" />
               </div>
-              <figcaption class="shot__caption" data-i18n="showcase.caption2">Balance, deposits, and full transaction history in one place.</figcaption>
+              <figcaption class="phone__caption" data-i18n="showcase.caption2">Balance, deposits, and full transaction history in one place.</figcaption>
             </figure>
-            <figure class="shot">
-              <div class="shot__frame">
-                <img src="/assets/screenshots/kid-view.png" alt="" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="wishes">
+        <div class="container">
+          <h2 class="wishes__title" data-i18n="wishes.title">A Kid View built around wishes</h2>
+          <p class="wishes__sub" data-i18n="wishes.sub">Kids pick what they're saving for. Piggly shows the progress, the math, and the day it finally clicks.</p>
+          <div class="wishes__grid">
+            <figure class="phone">
+              <div class="phone__frame">
+                <img src="/assets/screenshots/kidview-wishes-home-en.png" alt="" loading="lazy" />
               </div>
-              <figcaption class="shot__caption" data-i18n="showcase.caption3">A PIN-protected view your kid can open on their own.</figcaption>
+              <figcaption class="phone__caption" data-i18n="wishes.caption1">Wishes-first home with a tappable balance card.</figcaption>
+            </figure>
+            <figure class="phone">
+              <div class="phone__frame">
+                <img src="/assets/screenshots/kidview-wish-expanded-en.png" alt="" loading="lazy" />
+              </div>
+              <figcaption class="phone__caption" data-i18n="wishes.caption2">A friendly calendar marks the day the wallet crosses the finish line. ⭐</figcaption>
+            </figure>
+            <figure class="phone">
+              <div class="phone__frame">
+                <img src="/assets/screenshots/kidview-pin-gate-en.png" alt="" loading="lazy" />
+              </div>
+              <figcaption class="phone__caption" data-i18n="wishes.caption3">Adding wishes is free; deleting needs the parent PIN.</figcaption>
             </figure>
           </div>
         </div>
@@ -114,8 +135,12 @@
               <p class="card__desc" data-i18n="feature3.desc">Invite your partner by email. Both of you stay in sync.</p>
             </article>
             <article class="card">
-              <h3 class="card__title" data-i18n="feature4.title">A view just for them</h3>
-              <p class="card__desc" data-i18n="feature4.desc">Each kid gets their own PIN-protected view of their balance and history.</p>
+              <h3 class="card__title" data-i18n="feature4.title">Wishes with a deadline</h3>
+              <p class="card__desc" data-i18n="feature4.desc">Add a wish with an emoji and a price tag. The progress bar fills with every deposit; a calendar marks the day the wallet crosses the finish line.</p>
+            </article>
+            <article class="card">
+              <h3 class="card__title" data-i18n="feature5.title">Parent PIN on delete</h3>
+              <p class="card__desc" data-i18n="feature5.desc">Kids can dream big without breaking things. Adding wishes is free; deleting them needs the parent PIN — the same one that exits Kid View.</p>
             </article>
           </div>
         </div>
